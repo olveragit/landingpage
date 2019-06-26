@@ -2,19 +2,26 @@
   margin: 0 !important;
 }
 
+.nav-link {
+  color: #20ec66;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
 .background-jumbotron {
   margin: 0;
   padding: 0;
   background: url("../images/landingadventure.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw 500px;
+  background-size: 100vw 550px;
   color: white;
+  border-radius: 0;
 }
 
 .jumbotron{
   margin: 0;
   padding: 0;
-  height: 50vh;
+  height: 67vh;
 }
 
 .icon-bw {
@@ -22,7 +29,7 @@
 }
 
 .icons {
-  margin-top: 60px;
+  margin-top: 27px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,16 +37,36 @@
 }
 
 .icons-img {
-  margin-bottom: 60px;
+  margin-bottom: 27px;
   width: 1200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.container-grid {
+.icon-bw {
+  width: 77px;
+}
+
+.container{
+  /* border: 1px solid red; */
 }
 
 .col {
-  border: 1px solid red;
+  margin: 25px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleIndicators .carousel-inner img {
+  height: 600px;
+  width: 1100px;
+  filter: grayscale(60%);
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
