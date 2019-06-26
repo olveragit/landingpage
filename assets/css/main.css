@@ -48,13 +48,8 @@
   width: 77px;
 }
 
-.container{
-  /* border: 1px solid red; */
-}
-
 .col {
   margin: 25px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
 }
